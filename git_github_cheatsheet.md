@@ -53,7 +53,7 @@ git branch -d <name>      # Delete branch
 git restore <file>        # Discard changes in working dir
 git reset <file>          # Unstage a file
 git reset --soft HEAD~1   # Undo last commit (keep changes staged)
-git reset --hard HEAD     # Reset to last commit (⚠️ discards changes)
+git reset --hard HEAD     # Reset to last commit (caution : discards changes)
 git commit --amend        # Edit last commit message / add changes
 ```
 
